@@ -1,0 +1,17 @@
+{
+    "name": "jscompare",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "malta src/buildev.json",
+        "perf": "node test/perf/index.perf.js"
+    },
+    "devDependencies": {
+        "@fedeghe/testone": "^0.0.22",
+        "malta": "^4.1.36",
+        "malta-header-comment": "^1.0.12",
+        "malta-mocha": "^1.0.18",
+        "malta-umd": "^1.0.12"
+    }
+}
